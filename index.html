@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Canvas</title>
+</head>
+<body>
+<div class="floating-menu">
+        <span>
+            <div id="black" class="color-select selected"></div>
+            <div id="red" class="color-select"></div>
+            <div id="blue" class="color-select"></div>
+            <div id="green" class="color-select"></div>
+            <div id="yellow" class="color-select"></div>
+            <div id="purple" class="color-select"></div>
+        </span><br>
+    <span>
+            <div id="round" class="tool-select selected">R</div>
+            <div id="square" class="tool-select">S</div>
+<!--            <div id="eraser" class="tool-select"></div>-->
+            <input type="range" min="1" max="30" value="10" id="tool-width">
+        </span>
+</div>
+<script src="canvas.js"></script>
+</body>
+</html>

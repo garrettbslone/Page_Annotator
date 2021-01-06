@@ -1,0 +1,57 @@
+canvas {
+    cursor: crosshair;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    background: grey;
+    padding: 5px;
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.color-select {
+    border: 2px solid darkslategrey;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.selected {
+    width: 31px;
+    height: 31px;
+    border: 2px solid aqua;
+}
+
+.tool-select {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#green {
+    background-color: green;
+}
